@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/876e633b91.js" crossorigin="anonymous"></script>
+  <!-- FONT AWESOME END -->
+
+  <!-- STYLE LINKS -->
+  <link rel="shortcut icon" type="image/png" href="./img/logo/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 768px)">
+  <link rel="stylesheet" href="css/widescreen.css" media="screen and (min-width: 1100px)">
+  <!-- STYLE ENDS -->
+
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/876e633b91.js" crossorigin="anonymous"></script>
+  <!-- FONT AWESOME END -->
+  
+  <title>Oru Academy | Technology</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <img class="logo" src="./img/logo/oru.png" alt="orutech">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#clients">Learn</a></li>
+      <li><a href="#what">Code</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER : SHOWCASE -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading">Do It On CODE</h1>
+      <p class="lead">
+        We love what we do, We do what we know, Best practices is our culture.
+      </p>
+      <a href="#what" class="btn">Read More</a>
+    </div>
+  </header>
+
+  <!-- SECTION: WHAT WE DO -->
+  <section id="what" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">What </span>We Do</h2>
+      <div class="items">
+
+        <div class="item">
+          <i class="fas fa-university fa-2x"></i>
+          <div>
+              <h3>Project Management</h3>
+              <p>We analyse and manage financial, web and iOT projects.</p>
+          </div>
+        </div>
+
+        <div class="item">
+            <i class="fas fa-book-reader fa-2x"></i>
+            <div>
+                <h3>Data Analysis</h3>
+                <p>Using diverse integrated data analysis softwares, oru 
+                  family offers the best data analysis output to her customers
+                  and also ensures data maintainance.
+                </p>
+            </div>
+        </div>
+
+        <div class="item">
+            <i class="fas fa-pencil-alt fa-2x"></i>
+            <div>
+                <h3>Web Design</h3>
+                <p>We offer the best designs and our developers ensure that your website is optimizated, always effective and running</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: WHO WE ARE -->
+  <section id="who">
+    <div class="who-img"></div>
+    <div class="who-text bg-dark p-2">
+      <h2 class="m-heading">
+        <span class="text-primary">Who</span> We Are
+      </h2>
+      <p>The Oru family is a make up of committed, enthusiastic and friendly developers,
+        who possess great passion to help people, solve problems and make the world a better place.
+      </p>
+
+      <h3>Our Team</h3>
+      <ul class="list">
+        <li>Mr T-Boy : CEO</li>
+        <li>Mr Cee J : CFO</li>
+        <li>Pila : Tech Lead</li>
+        <li>Ayodeji Tosin : Java Developer(Andriod)</li>
+        <li>Blessing : Frontend Developer</li>
+        <li>Kemi : Graphics Designer</li>
+        <li>John Champion : Cyber Security, Full Stack Developer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SECTION: CLIENT -->
+  <section id="clients" class="py-1">
+    <div class="container">
+      <h2 class="m-heading text-center">
+        <span class="text-primary">Our</span> Clients
+      </h2>
+      <div class="items py-1">
+          <div><img src="./img/oruclient2.png" alt="oruclient"></div>
+          <div><img src="./img/oruclient8.png" alt="oruclient"></div>
+          <div><img src="./img/oruclient7.png" alt="oruclient"></div>
+          <div><img src="./img/oruclient9.png" alt="oruclient"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: CONTACT -->
+  <section id="contact">
+    <div class="contact-form bg-primary p-2">
+      <h2 class="m-heading">Contact Us</h2>
+      <p>Please use the form below to contact us</p>
+      <form action="process.php" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label> 
+          <input type="text" name="name" id="name" placeholder="Enter Name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" id="phone" placeholder="Enter Phone Number" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Enter Message" required></textarea>
+        </div>
+
+        <input type="submit" value="send" class="btn btn-dark">
+
+      </form>
+    </div>
+
+    <div class="map"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="bg-dark text-center py-1">
+    <div class="container">
+      <p>Copyright &copy; 2019. Oru Academy, All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JQUERY CDN -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- LOCAL JS-SCRIPT -->
+  <script src="./js/main.js"></script>
+
+  <!-- GOOGLE MAPS -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN0VcchdMmI895WrIvRooDfYJGyU2W2SY&callback=initMap"
+    async defer></script>
+</body>
+</html>
